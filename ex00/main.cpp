@@ -6,13 +6,20 @@
 /*   By: omizin <omizin@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/18 13:10:38 by omizin            #+#    #+#             */
-/*   Updated: 2025/09/18 13:15:23 by omizin           ###   ########.fr       */
+/*   Updated: 2025/09/19 14:46:09 by omizin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
+#include "ClapTrap.hpp"
 
 int	main()
 {
-	std::cout << "Init" << std::endl;
+	ClapTrap john("John");
+	john.getStatus();
+	john.attack("Zombie");
+	john.getStatus();
+	john.takeDamage(5);
+	john.getStatus();
+	john.beRepaired(5);
+	john.getStatus();
 }
