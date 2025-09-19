@@ -6,11 +6,11 @@
 #    By: omizin <omizin@student.42heilbronn.de>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/18 13:10:34 by omizin            #+#    #+#              #
-#    Updated: 2025/09/18 13:16:27 by omizin           ###   ########.fr        #
+#    Updated: 2025/09/19 16:20:13 by omizin           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = open
+NAME = ex00
 
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++17
