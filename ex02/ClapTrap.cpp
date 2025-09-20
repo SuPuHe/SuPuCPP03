@@ -14,18 +14,18 @@
 
 ClapTrap::ClapTrap(std::string name): _name(name), _hp(10), _ep(10), _dmg(0)
 {
-	std::cout << "Constructor called" << std::endl;
+	std::cout << "ClapTrap constructor called" << std::endl;
 }
 
 ClapTrap::ClapTrap(ClapTrap const &copy)
 	: _name(copy._name), _hp(copy._hp), _ep(copy._ep), _dmg(copy._dmg)
 {
-	std::cout << "Copy constructor called" << std::endl;
+	std::cout << "ClapTrap copy constructor called" << std::endl;
 }
 
 ClapTrap &ClapTrap::operator=(const ClapTrap &copy)
 {
-	std::cout << "Copy assignment operator called" << std::endl;
+	std::cout << "ClapTrap copy assignment operator called" << std::endl;
 	_name = copy._name;
 	_hp=copy._hp;
 	_ep=copy._ep;
@@ -35,7 +35,7 @@ ClapTrap &ClapTrap::operator=(const ClapTrap &copy)
 
 ClapTrap::~ClapTrap()
 {
-	std::cout << "Destructor called" << std::endl;
+	std::cout << "ClapTrap destructor called" << std::endl;
 }
 
 void ClapTrap::attack(const std::string &target)
