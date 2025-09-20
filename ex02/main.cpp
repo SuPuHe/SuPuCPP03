@@ -23,5 +23,5 @@ int	main()
 	john.getStatus();
 	john.beRepaired(5);
 	john.getStatus();
-	john.guardGate();
+	john.highFivesGuys();
 }
