@@ -10,11 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ScavTrap.hpp"
+#include "FragTrap.hpp"
 
 int	main()
 {
-	ScavTrap john("big John");
+	FragTrap john("happy John");
 
 	john.getStatus();
 	john.attack("Zombie");
