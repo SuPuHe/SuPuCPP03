@@ -10,12 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
 
 int	main()
 {
-	ClapTrap john("John");
-	
+	ScavTrap john("big John");
+
 	john.getStatus();
 	john.attack("Zombie");
 	john.getStatus();
@@ -23,4 +23,5 @@ int	main()
 	john.getStatus();
 	john.beRepaired(5);
 	john.getStatus();
+	john.guardGate();
 }
