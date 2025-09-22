@@ -1,5 +1,8 @@
 #include "FragTrap.hpp"
 
+const unsigned int FragTrap::default_hp = 100;
+const unsigned int FragTrap::default_dmg = 30;
+
 FragTrap::FragTrap(std::string name): ClapTrap(name)
 {
 	std::cout << "FragTrap constructor called" << std::endl;

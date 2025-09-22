@@ -1,5 +1,7 @@
 #include "ScavTrap.hpp"
 
+const unsigned int ScavTrap::default_ep = 50;
+
 ScavTrap::ScavTrap(std::string name): ClapTrap(name)
 {
 	std::cout << "ScavTrap constructor called" << std::endl;

@@ -3,7 +3,7 @@
 
 #include "ScavTrap.hpp"
 
-class FragTrap: public ClapTrap
+class FragTrap: virtual public ClapTrap
 {
 	public:
 		FragTrap(std::string name);
@@ -12,5 +12,8 @@ class FragTrap: public ClapTrap
 		~FragTrap();
 
 		void highFivesGuys(void);
+
+		static const unsigned int default_hp;
+		static const unsigned int default_dmg;
 };
 #endif

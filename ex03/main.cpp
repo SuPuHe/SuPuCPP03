@@ -10,11 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "FragTrap.hpp"
+#include "DiamondTrap.hpp"
 
 int	main()
 {
-	FragTrap john("happy John");
+	DiamondTrap john("lil John");
 
 	john.getStatus();
 	john.attack("Zombie");
@@ -23,5 +23,5 @@ int	main()
 	john.getStatus();
 	john.beRepaired(5);
 	john.getStatus();
-	john.highFivesGuys();
+	john.whoAmI();
 }
