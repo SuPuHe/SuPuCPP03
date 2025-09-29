@@ -6,7 +6,7 @@
 /*   By: omizin <omizin@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/29 11:33:10 by omizin            #+#    #+#             */
-/*   Updated: 2025/09/29 11:33:11 by omizin           ###   ########.fr       */
+/*   Updated: 2025/09/29 11:48:22 by omizin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,8 @@ DiamondTrap::DiamondTrap(DiamondTrap const &copy)
 DiamondTrap &DiamondTrap::operator=(const DiamondTrap &copy)
 {
 	std::cout << "DiamondTrap copy assignment operator called" << std::endl;
-	_name = copy._name + "_clap_Trap";
+	_name = copy._name;
+	ClapTrap::_name = copy.ClapTrap::_name;
 	_hp=copy._hp;
 	_ep=copy._ep;
 	_dmg=copy._dmg;
